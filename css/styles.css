@@ -1,7 +1,15 @@
+
+
+
 body 
 {
     margin: 0;
-    background-color: #707070;
+    background-color: #404040;
+}
+a {
+  color: #404040;
+  background-color: none;
+  font-weight: bolder;
 }
 
 #title 
@@ -9,29 +17,70 @@ body
     font-size: 40px;
     width: 100%;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter';
     color: #FFFFFF;
 }
 
 #Header
 {
-    font-size: 150%;
     width: 100%;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #FFFFFF;
+    height: 60px;
+    font-weight:bolder;
+    font-family: 'Inter',Inter,monospace;
+    background-color: #D9D9D9;
 }
-#Website-Name
-{
-    color: black;
+#Website-Name {
+    font-size: 130%;
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    color: #404040;
 }
 
 #loginDiv
 {
-    font-size: 30px;
-    width: 70%;
-    margin-left: 15%;
-    padding: 25px;
-    background-color: #b2b2b2;
+    width: 35%;
+    height: 240px;
+    margin-top: 10%;
+    margin-left: 30%;
+    text-align: center;
+    padding: 10px;
+    border-radius:29px;
+    background-color: #D9D9D9;
+    color: #404040;
+    font-weight: bolder;
+    font-family: 'Inter';
+}
+#title-Text
+{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+#login-Text
+{
+    font-size: 15px;
+    text-align: left;
+}
+
+#loginButton
+{
+    margin-top:20px;
+    font-size: 25px;
+    height:50px;
+    border:none;
+    background-color: #404040;
+    color:#D9D9D9;
+    font-family:'Inter';
+}
+#registerLink
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #loggedInDiv
@@ -57,7 +106,6 @@ body
     font-size: 30px;
     border-radius: 25px;
     width: 50%;
-    margin-left: 25%;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -69,11 +117,19 @@ body
 
 #loginName
 {
-	font-size: 30px;
+	font-size: 15px;
+    width: 50%;
+    height:30px;
+    outline:none;
+    border:none;
 }
 #loginPassword
 {
-	font-size: 30px;
+	font-size: 15px;
+    width: 50%;
+    height:30px;
+    outline:none;
+    border:none;
 }
 #searchText
 {
@@ -88,9 +144,9 @@ input[type="text"],input[type="password"]{
     border-radius: 25px;
     text-align: center;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 2%;
     margin-bottom: 2%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter';
 }
 
 #inner-title{
@@ -100,7 +156,7 @@ input[type="text"],input[type="password"]{
     text-align: center;
     margin-left: 5%;
     margin-bottom: 2%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter';
     color: #95060a;
 }
 
