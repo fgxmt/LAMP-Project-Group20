@@ -1,5 +1,6 @@
 body 
 {
+    margin: 0;
     background-color: #707070;
 }
 
@@ -7,10 +8,21 @@ body
 {
     font-size: 40px;
     width: 100%;
-    margin: 2% 5%;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
+}
+
+#Header
+{
+    font-size: 150%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FFFFFF;
+}
+#Website-Name
+{
+    color: black;
 }
 
 #loginDiv
