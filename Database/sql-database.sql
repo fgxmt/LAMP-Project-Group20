@@ -1,6 +1,6 @@
 -- Create the database if it doesn't exist
-CREATE DATABASE IF NOT EXISTS COP4331;
-USE COP4331;
+CREATE DATABASE IF NOT EXISTS LAMPSTACK;
+USE LAMPSTACK;
 -- Created login and password logic
 -- Users table
 CREATE TABLE IF NOT EXISTS Users (
