@@ -1,0 +1,25 @@
+-- Create the database if it doesn't exist
+CREATE DATABASE IF NOT EXISTS COP4331;
+USE COP4331;
+-- Created login and password logic
+-- Users table
+CREATE TABLE IF NOT EXISTS Users (
+    ID INT NOT NULL AUTO_INCREMENT,
+    FirstName VARCHAR(50) NOT NULL DEFAULT '',
+    LastName VARCHAR(50) NOT NULL DEFAULT '',
+    Login VARCHAR(50) NOT NULL DEFAULT '',
+    Password VARCHAR(50) NOT NULL DEFAULT '',
+    PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Contacts table for storage of information 
+CREATE TABLE IF NOT EXISTS Contacts (
+    ID INT NOT NULL AUTO_INCREMENT,
+    FirstName VARCHAR(50) NOT NULL DEFAULT '',
+    LastName VARCHAR(50) NOT NULL DEFAULT '',
+    PhoneNumber VARCHAR(50) NOT NULL DEFAULT '',
+    EmailAddress VARCHAR(50) NOT NULL DEFAULT '',
+    UserID INT NOT NULL DEFAULT 0,
+    PRIMARY KEY (ID),
+    FOREIGN KEY (UserID) REFERENCES Users(ID) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
