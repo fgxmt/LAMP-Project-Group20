@@ -14,23 +14,72 @@
 	<span id="Website-Name">Website Name</span>
 </div>
 
-<div id="loginDiv">
+<div id="registerDiv">
 	<div id="title-Text">
-		<span>Login</span>
+		<span>Register</span>
 	</div>
-	<div>
-		<span id="login-Text">Username:</span>
-		<input type="text" id="loginName" ><br />
+	<!-- Eventually we might need to change the ID section -->
+	<div id = "registerBlock">
+		<div id = "inputHeaders">
+			<span id="login-Text">First Name:</span>
+		</div>
+		<div id = "inputField">
+			<input type="registerText" id="firstNameInput" ><br />
+		</div>
 	</div>
-	<div>
-		<span id="login-Tsext">Password:</span>
-		<input type="password" id="loginPassword"><br />
+
+	<div id = "registerBlock">
+		<div id = "inputHeaders">
+			<span id="login-Text">Last Name:</span>
+		</div>
+		<div id = "inputField">
+			<input type="registerText" id="lastNameInput" ><br />
+		</div>
 	</div>
+
+	<div id = "registerBlock">
+		<div id = "inputHeaders">
+			<span id="login-Text">Username:</span>
+		</div>
+		<div id = "inputField">
+			<input type="registerText" id="userNameInput" ><br />
+		</div>
+	</div>
+
+	<div id = "registerBlock">
+		<div id = "inputHeaders">
+			<span id="login-Text">Email:</span>
+		</div>
+		<div id = "inputField">
+			<input type="registerText" id="emailInput" ><br />
+		</div>
+	</div>
+
+	<div id = "registerBlock">
+		<div id = "inputHeaders">
+			<span id="login-Text">Password:</span>
+		</div>
+		<div id = "inputField">
+			<input type="registerText" id="passwordInput" ><br />
+		</div>
+	</div>
+
+	<div id = "registerBlock">
+		<div id = "inputHeaders">
+			<span id="login-Text">Confirm Password:</span>
+		</div>
+		<div id = "inputField">
+			<input type="registerText" id="confirmPasswordInput" ><br />
+		</div>
+	</div>
+
+
 	<div>
-		<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Log in </button>
+		<!-- change this to doRegister() whenever that is setup -->
+		<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Register </button>
 	</div>
 	<div id="registerLink">
-		<t>Create an account </t><a href="PUT URL HERE">here</a>
+		<t>Already have an account? Sign in </t><a href="PUT URL HERE">here</a>
 	</div>
 
 </div>
