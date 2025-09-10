@@ -18,7 +18,7 @@ a {
     width: 100%;
     text-align: center;
     font-family: 'Inter';
-    color: #FFFFFF;
+    color: #404040;
 }
 
 #Header
@@ -38,11 +38,11 @@ a {
     color: #404040;
 }
 
-/* login Section */
-#loginDiv
+/* Inserting Contacts Page */
+#contactDiv
 {
     width: 35%;
-    height: 240px;
+    height: 300px;
     margin-top: 10%;
     margin-left: 30%;
     text-align: center;
@@ -53,20 +53,20 @@ a {
     font-weight: bolder;
     font-family: 'Inter';
 }
-#title-Text
+#contact-TextTitle
 {
     font-size: 20px;
     text-align: center;
     margin-bottom:20px;
 }
 
-#login-Text
+#contact-Text
 {
     font-size: 15px;
     text-align: left;
 }
 
-#loginButton
+#contactButton
 {
     margin-top:20px;
     font-size: 25px;
@@ -76,15 +76,8 @@ a {
     color:#D9D9D9;
     font-family:'Inter';
 }
-#registerLink
-{
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-}
 
-#loggedInDiv
+#contactDiv
 {
     font-size: 30px;
     width: 70%;
@@ -111,12 +104,12 @@ a {
 }
 
 .buttons:hover{
-    background-color: #00d5124f;
+    background-color: #D9D9D9;
     color: #FFFFFF;
     opacity: 50%;
 }
 
-#loginName
+#firstName
 {
 	font-size: 15px;
     width: 50%;
@@ -124,7 +117,23 @@ a {
     outline:none;
     border:none;
 }
-#loginPassword
+#lastName
+{
+	font-size: 15px;
+    width: 50%;
+    height:30px;
+    outline:none;
+    border:none;
+}
+#phoneNum
+{
+	font-size: 15px;
+    width: 50%;
+    height:30px;
+    outline:none;
+    border:none;
+}
+#emailInfo
 {
 	font-size: 15px;
     width: 50%;
@@ -206,61 +215,5 @@ select{
     margin-bottom: 1%;
     font-family: 'Ubuntu', sans-serif;
     color: #95060a;
-}
-
-
-
-
-/* Register Section */
-#registerDiv{
-    width: 35%;
-    height: 450px;
-    margin-top: 10%;
-    margin-left: 30%;
-    text-align: center;
-    padding: 10px;
-    border-radius:29px;
-    background-color: #D9D9D9;
-    color: #404040;
-    font-weight: bolder;
-    font-family: 'Inter';
-}
-
-#registerBlock{
-    padding-bottom:45px;
-}
-
-#inputField{
-    display: block;
-    float: right;
-    width: 40%;
-    padding-right:10%;
-}
-#inputHeaders{
-    display: block;
-    float: left;
-    margin-top: 5px;
-    width: 50%;
-}
-#registerInput{
-    font-size: 15px;
-    width: 100%;
-    height:30px;
-    outline:none;
-    border:none;
-}
-
-input[type="registerText"],input[type="registerPassword"]{
-    border-radius: 25px;
-    text-align: center;
-    width: 80%;
-    margin-left: 2%;
-    margin-bottom: 2%;
-    font-family: 'Inter';
-    font-size: 15px;
-    width: 100%;
-    height:30px;
-    outline:none;
-    border:none;
 }
 

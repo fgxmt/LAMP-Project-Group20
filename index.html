@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Contact Page</title>
 	<script type="text/javascript" src="js/md5.js"></script>
 	<script type="text/javascript" src="js/code.js"></script>
     <link href="css/styles.css" rel="stylesheet">	
@@ -11,26 +11,31 @@
 <body>
 
 <div id="Header">
-	<span id="Website-Name">Website Name</span>
+	<span id="Website-Name">Contacts</span>
 </div>
 
-<div id="loginDiv">
-	<div id="title-Text">
-		<span>Login</span>
+<div id="contactDiv">
+	<div id="contact-TextTitle">
+		<span>Enter Contact Information</span>
 	</div>
 	<div>
-		<span id="login-Text">Username:</span>
-		<input type="text" id="loginName" ><br />
+		<span id="contact-Text">First Name:</span>
+		<input type="text" id="firstName" ><br />
 	</div>
 	<div>
-		<span id="login-Text">Password:</span>
-		<input type="password" id="loginPassword"><br />
+		<span id="contact-Text">Last Name:</span>
+		<input type="text" id="lastName"><br />
 	</div>
 	<div>
-		<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Log in </button>
+		<span id="contact-Text">Phone Number:</span>
+		<input type="text" id="phoneNum"><br />
 	</div>
-	<div id="registerLink">
-		<t>Create an account </t><a href="Put Url here">here</a>
+	<div>
+		<span id="contact-Text">Email:</span>
+		<input type="text" id="emailInfo"><br />
+	</div>
+	<div>
+		<button type="button" id="contactButton" class="buttons" onclick="doLogin();"> Add Information </button>
 	</div>
 
 </div>
