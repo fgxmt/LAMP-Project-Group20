@@ -1,3 +1,4 @@
+const URL_BASE = "http://lampstack.fgxmt.com"
 const API_BASE = "/LAMPAPI"; // if PHP files are in same folder as HTML
 
 async function doLogin() {
@@ -10,7 +11,7 @@ async function doLogin() {
   }
 
   try {
-    const res = await fetch(`${API_BASE}/login.php`, {
+    const res = await fetch(`${URL_BASE}${API_BASE}/Login.php`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ login, password })
@@ -49,7 +50,7 @@ async function doRegister() {
   }
 
   try {
-    const res = await fetch(`${API_BASE}/register.php`, {
+    const res = await fetch(`${URL_BASE}${API_BASE}/Register.php`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
