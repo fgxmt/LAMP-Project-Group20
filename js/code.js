@@ -1,4 +1,4 @@
-const API_BASE = ""; // if PHP files are in same folder as HTML
+const API_BASE = "/LAMPAPI"; // if PHP files are in same folder as HTML
 
 async function doLogin() {
   const login = document.getElementById("loginName").value.trim();
