@@ -1,47 +1,37 @@
 <html>
 <head>
-	<title>Login Page</title>
-	<script type="text/javascript" src="js/md5.js"></script>
-	<script type="text/javascript" src="js/code.js"></script>
-    <link href="css/styles.css" rel="stylesheet">	
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-	
+  <title>Login Page</title>
+  <script type="text/javascript" src="js/md5.js"></script>
+  <script type="text/javascript" src="js/code.js"></script>
+  <link href="css/styles.css" rel="stylesheet">	
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div id="Header">
-	<span id="Website-Name">Website Name</span>
+  <span id="Website-Name">Website Name</span>
 </div>
 
 <div id="loginDiv">
-	<div id="title-Text">
-		<span>Login</span>
-	</div>
-	<div>
-		<span id="login-Text">Username:</span>
-		<input type="text" id="loginName" ><br />
-	</div>
-	<div>
-		<span id="login-Text">Password:</span>
-		<input type="password" id="loginPassword"><br />
-	</div>
-	<div>
-		<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Log in </button>
-	</div>
-	<div id="registerLink">
-		<t>Create an account </t><a href="Put Url here">here</a>
-	</div>
-
+  <div id="title-Text">
+    <span>Login</span>
+  </div>
+  <div>
+    <span id="login-Text">Username:</span>
+    <input type="text" id="loginName"><br />
+  </div>
+  <div>
+    <span id="login-Text">Password:</span>
+    <input type="password" id="loginPassword"><br />
+  </div>
+  <div>
+    <button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Log in </button>
+  </div>
+  <div id="registerLink">
+    <t>Create an account </t><a href="register.html">here</a>
+  </div>
 </div>
-
-<!-- <div id="loginDiv">
-	<span id="inner-title">PLEASE LOG IN</span>
-	<input type="text" id="loginName" placeholder="Username" /><br />
-	<input type="password" id="loginPassword" placeholder="Password"/><br />
-	<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Do It </button>
-	<span id="loginResult"></span>
-</div> -->
 
 </body>
 </html>
