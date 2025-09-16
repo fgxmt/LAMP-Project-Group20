@@ -41,13 +41,11 @@ function readCookie()
 		window.location.href = "searchContact.html";
 		
 	}
-	else
-	{
-//		document.getElementById("userName").innerHTML = "Logged in as " + firstName + " " + lastName;
-	}
+	
 }
 
 doAddContact()
 
-doSearchContact()
+
+doSearchContact();
 

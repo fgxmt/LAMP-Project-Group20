@@ -275,3 +275,25 @@ input[type="text"],input[type="password"]{
   color: #95060a;
   text-decoration: underline;
 }
+
+#resultsB {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #404040;
+    max-height: 300px;  
+    overflow-y: auto;       
+    border: 1px solid #ccc;
+}
+
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
