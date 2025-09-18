@@ -3,7 +3,7 @@
 	<title>Contact Page</title>
 	<script type="text/javascript" src="js/md5.js"></script>
 	<script type="text/javascript" src="js/code.js"></script>
-    <link href="css/styles.css" rel="stylesheet">	
+    <link href="css/contacts.css" rel="stylesheet">	
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	
@@ -21,29 +21,43 @@
 		<span>Enter Contact Information</span>
 	</div>
 
-	<div>
-		<span id="contact-Text">First Name:</span>
-		<input type="text" id="firstName" ><br />
+	<div id = "inputBlock">
+		<div id="inputHeaders">
+			<span id="contact-Text">First Name:</span>
+		</div>
+		<div id="inputField">
+			<input type="text" id="firstName" ><br />
+		</div>
 	</div>
 
-	<div>
-		<span id="contact-Text">Last Name:</span>
-		<input type="text" id="lastName"><br />
+	<div id = "inputBlock">
+		<div id="inputHeaders">
+			<span id="contact-Text">Last Name:</span>
+		</div>
+		<div id="inputField">
+			<input type="text" id="lastName"><br />
+		</div>
 	</div>
 
-	<div>
-		<span id="contact-Text">Phone Number:</span>
-		<input type="text" id="phoneNum"><br />
+	<div id = "inputBlock"> 
+		<div id="inputHeaders">
+			<span id="contact-Text">Phone Number:</span>
+		</div>
+		<div id="inputField">
+			<input type="text" id="phoneNum"><br />
+		</div>
 	</div>
 
-	<div>
-		<span id="contact-Text">Email:</span>
-		<input type="text" id="emailInfo"><br />
+	<div id = "inputBlock">
+		<div id="inputHeaders">
+			<span id="contact-Text">Email:</span>
+		</div>
+		<div id="inputField">
+			<input type="text" id="emailInfo"><br />
+		</div>
 	</div>
-
-	<div>
 		<button type="button" id="contactButton" class="buttons" onclick="doAddContact();"> Add Information </button>
-	</div>
+	
 
 	
 </div>
