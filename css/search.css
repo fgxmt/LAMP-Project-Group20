@@ -71,15 +71,18 @@ input[type="text"],input[type="password"],input[type="email"]{
     height:30px;
     outline:none;
     border:none;
+
 }
 
 /* Inserting Search Contacts Page */
 #searchContactDiv
 {
     width: 35%;
-    height: 600px;
+    height: 700px;
     margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     padding: 10px;
     border-radius:29px;
@@ -177,10 +180,11 @@ input[type="text"],input[type="password"],input[type="email"]{
   color: #95060a;
   text-decoration: underline;
 }
-
-#resultsB {
+#resultsA {
     margin-top: 20px;
     padding: 15px;
+    margin-left:auto;
+    margin-right:auto;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: left;
@@ -189,6 +193,55 @@ input[type="text"],input[type="password"],input[type="email"]{
     max-height: 300px;  
     overflow-y: auto;       
     border: 1px solid #ccc;
+    width:80%
+}
+
+#resultsB {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: #404040;
+    max-height: 300px;  
+    overflow-y: auto;       
+}
+
+#inputBlock{
+    padding-bottom:70px;
+}
+#inputHeaders{
+    display: flex;
+    float: left;
+    font-Size: 20px;
+    width: 25%;
+    margin-left:7%;
+}
+#inputField{
+    display: flex;
+    float: right;
+    justify-content: center;
+    width: 65%;
+    /* padding-right:10%; */
+}
+
+#edit{
+    font-size: 25px;
+    width:40%;
+    height:60px;
+    border:none;
+    background-color: #404040;
+    color:#D9D9D9;
+    font-family:'Inter';
+}
+#delete{
+    font-size: 25px;
+    width:40%;
+    height:60px;
+    border:none;
+    background-color: #404040;
+    color:#D9D9D9;
+    font-family:'Inter';
 }
 
 .result-item {

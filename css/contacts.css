@@ -29,6 +29,22 @@ a {
     font-family: 'Inter',Inter,monospace;
     background-color: #D9D9D9;
 }
+
+#navLink {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #404040;
+  text-decoration: none;
+}
+#navLink:hover {
+  color: #95060a;
+  text-decoration: underline;
+}
+
 #Website-Name {
     font-size: 130%;
     position: absolute;
