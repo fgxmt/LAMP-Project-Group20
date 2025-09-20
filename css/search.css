@@ -180,21 +180,22 @@ input[type="text"],input[type="password"],input[type="email"]{
   color: #95060a;
   text-decoration: underline;
 }
+
+/* Scrollable List */
+
 #resultsA {
-    margin-top: 20px;
-    padding: 15px;
-    margin-left:auto;
-    margin-right:auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    text-align: left;
-    font-size: 14px;
-    color: #404040;
-    max-height: 300px;  
-    overflow-y: auto;       
-    border: 1px solid #ccc;
-    width:80%
+    height: 130px;            
+    width: 70%;             
+    overflow-y: auto;         
+    border: 1px solid #ccc;   
+    padding: 5px;             
+    font-size: 15px;          
+    line-height: 1.5em;       
+    background-color: #f9f9f9; 
+    margin: 10px auto 0 auto;           
+    text-align: left;    
 }
+
 
 #resultsB {
     margin-top: 20px;

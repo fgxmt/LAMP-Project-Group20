@@ -74,3 +74,4 @@ async function doRegister() {
     alert(err.message || "Network error");
   }
 }
+
