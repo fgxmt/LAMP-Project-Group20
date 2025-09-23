@@ -1,254 +1,259 @@
-
-
-
-body 
-{
+body {
+    font-family: 'Ubuntu', 'Inter', sans-serif;
     margin: 0;
-    background-color: #404040;
-}
-a {
-  color: #404040;
-  background-color: none;
-  font-weight: bolder;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-#title 
-{
-    font-size: 40%;
-    width: 100%;
-    text-align: center;
-    font-family: 'Inter';
-    color: #404040;
+#Header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#Header
-{
-    width: 100%;
-    height: 60px;
-    font-weight:bolder;
-    font-family: 'Inter',Inter,monospace;
-    background-color: #D9D9D9;
-}
 #Website-Name {
-    font-size: 130%;
-    position: absolute;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding-left: 30px;
-    color: #404040;
+    font-size: 24px;
+    font-weight: bold;
 }
-
-.buttons
-{
-    font-size: 30px;
-    border-radius: 25px;
-    font-family: 'Ubuntu', sans-serif;
-}
-#sButton
-{
-    font-size: 25px;
-    width:60%;
-    height:60px;
-    border:none;
-    background-color: #404040;
-    color:#D9D9D9;
-    font-family:'Inter';
-}
-
-.buttons:hover{
-    background-color: #D9D9D9;
-    color: #FFFFFF;
-    opacity: 50%;
-}
-
-input[type="text"],input[type="password"],input[type="email"]{
-    border-radius: 25px;
-    text-align: center;
-    width: 80%;
-    margin-bottom: 10px;
-    font-family: 'Inter';
-    font-size: 15px;
-    height:30px;
-    outline:none;
-    border:none;
-
-}
-
-/* Inserting Search Contacts Page */
-#searchContactDiv
-{
-    width: 35%;
-    height: 700px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: center;
-    padding: 10px;
-    border-radius:29px;
-    background-color: #D9D9D9;
-    color: #404040;
-    font-weight: bolder;
-    font-family: 'Inter';
-}
-#searchContact-TextTitle
-{
-    font-size: 20px;
-    text-align: center;
-    margin-bottom:20px;
-}
-
-#searchContact-Text
-{
-    font-size: 15px;
-    text-align: left;
-}
-
-#searchContactButton
-{
-    margin-top:20px;
-    font-size: 25px;
-    height:50px;
-    border:none;
-    background-color: #404040;
-    color:#D9D9D9;
-    font-family:'Inter';
-}
-
-#searchContactDiv
-{
-    font-size: 30px;
-    width: 70%;
-    margin-left: 15%;
-    padding: 25px;
-    background-color: #b2b2b2;
-}
-
-#accessUIDiv
-{
-    font-size: 30px;
-    width: 70%;
-    margin-left: 15%;
-    padding: 25px;
-    background-color: #b2b2b2;
-}
-
-.buttons
-{
-    font-size: 30px;
-    border-radius: 25px;
-    width: 50%;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.buttons:hover{
-    background-color: #D9D9D9;
-    color: #FFFFFF;
-    opacity: 50%;
-}
-
-#firstNameS
-{
-	font-size: 15px;
-    width: 50%;
-    height:30px;
-    outline:none;
-    border:none;
-}
-#lastNameS
-{
-	font-size: 15px;
-    width: 50%;
-    height:30px;
-    outline:none;
-    border:none;
-}
-
 
 #navLink {
-  position: absolute;
-  right: 30px;
-  top: 20px;
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  color: #404040;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #34495e;
+    transition: background-color 0.3s;
 }
 
 #navLink:hover {
-  color: #95060a;
-  text-decoration: underline;
-}
-#resultsA {
-    margin-top: 20px;
-    padding: 15px;
-    margin-left:auto;
-    margin-right:auto;
-    background-color: #ffffff;
-    border-radius: 10px;
-    text-align: left;
-    font-size: 14px;
-    color: #404040;
-    max-height: 300px;  
-    overflow-y: auto;       
-    border: 1px solid #ccc;
-    width:80%
+    background-color: #3e5770;
 }
 
-#resultsB {
-    margin-top: 20px;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: left;
-    font-size: 14px;
-    color: #404040;
-    max-height: 300px;  
-    overflow-y: auto;       
-}
-
-#inputBlock{
-    padding-bottom:70px;
-}
-#inputHeaders{
+#mainContainer {
     display: flex;
-    float: left;
-    font-Size: 20px;
-    width: 25%;
-    margin-left:7%;
-}
-#inputField{
-    display: flex;
-    float: right;
-    justify-content: center;
-    width: 65%;
-    /* padding-right:10%; */
-}
-
-#edit{
-    font-size: 25px;
-    width:40%;
-    height:60px;
-    border:none;
-    background-color: #404040;
-    color:#D9D9D9;
-    font-family:'Inter';
-}
-#delete{
-    font-size: 25px;
-    width:40%;
-    height:60px;
-    border:none;
-    background-color: #404040;
-    color:#D9D9D9;
-    font-family:'Inter';
-}
-
-.result-item {
+    height: calc(100vh - 70px);
+    gap: 10px;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
 }
 
-.result-item:last-child {
-    border-bottom: none;
+#searchSection {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#searchContact-TextTitle {
+    margin-bottom: 20px;
+}
+
+#searchContact-TextTitle span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#searchBar {
+    margin-bottom: 20px;
+}
+
+#sBar {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#sBar:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+#contactsList {
+    flex: 1;
+    overflow: hidden;
+}
+
+#contactsContainer {
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.contact-item {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.contact-item:hover {
+    background-color: #f8f9fa;
+}
+
+.contact-item.selected {
+    background-color: #3498db;
+    color: white;
+}
+
+.contact-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-phone {
+    color: #666;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.contact-item.selected .contact-phone {
+    color: #e8f4f8;
+}
+
+#contactDetails {
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#detailsHeader {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+#detailsHeader span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#inputBlock {
+    margin-bottom: 15px;
+}
+
+#inputHeaders {
+    margin-bottom: 5px;
+}
+
+#contact-Text {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+#inputField input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+#inputField input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+#inputField input[readonly] {
+    background-color: #f8f9fa;
+    cursor: default;
+}
+
+#inputField input[readonly]:focus {
+    border-color: #ddd;
+}
+
+.buttons {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.buttons:hover {
+    background-color: #2980b9;
+}
+
+#delete {
+    background-color: #e74c3c;
+}
+
+#delete:hover {
+    background-color: #c0392b;
+}
+
+#save {
+    background-color: #27ae60;
+}
+
+#save:hover {
+    background-color: #229954;
+}
+
+#cancel {
+    background-color: #95a5a6;
+}
+
+#cancel:hover {
+    background-color: #7f8c8d;
+}
+
+#buttonContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#noContactSelected {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+/* Loading states */
+.loading {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
 }
