@@ -1,79 +1,92 @@
+<!DOCTYPE html>
 <html>
 <head>
-
     <title>Search Contacts</title>
-	<script type="text/javascript" src="js/code.js"></script>
-    <link href="css/search.css" rel="stylesheet">	
+    <script type="text/javascript" src="js/code.js?v=2"></script>
+    <link href="css/search.css?v=2" rel="stylesheet">       
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
 <div id="Header">
     <span id="Website-Name">Search Contacts</span>
-	<a href="addContact.html" id="navLink">Add Contacts</a>
+    <a href="addContact.html" id="navLink">Add Contacts</a>
 </div>
 
-<div id="searchContactDiv">
+<div id="mainContainer">
+    <div id="searchSection">
+        <div id="searchContact-TextTitle">
+            <span>Search Contacts</span>
+        </div>
+        
+        <div id="searchBar">
+            <input type="text" id="sBar" placeholder="Enter First or Last Name to search...">
+        </div>
 
-    <div id="searchContact-TextTitle">
-        <span>Search Contacts</span>
+        <div id="contactsList">
+            <div id="contactsContainer">
+                <!-- Contacts will be populated here by JavaScript -->
+            </div>
+        </div>
     </div>
 
-    <div>
-        <input type="text" id="sBar" placeholder="Enter First or Last Name">
-        <button type="button" id="sButton" class="buttons"> Search Contact </button>
+    <div id="contactDetails">
+        <div id="detailsContent">
+            <div id="detailsHeader">
+                <span>Contact Details</span>
+            </div>
+            
+            <div id="contactInfo" style="display: none;">
+                <div id="inputBlock">
+                    <div id="inputHeaders">
+                        <span id="contact-Text">First Name:</span>
+                    </div>
+                    <div id="inputField">
+                        <input type="text" id="firstName" readonly><br />
+                    </div>
+                </div>
+
+                <div id="inputBlock">
+                    <div id="inputHeaders">
+                        <span id="contact-Text">Last Name:</span>
+                    </div>
+                    <div id="inputField">
+                        <input type="text" id="lastName" readonly><br />
+                    </div>
+                </div>
+
+                <div id="inputBlock">
+                    <div id="inputHeaders">
+                        <span id="contact-Text">Phone Number:</span>
+                    </div>
+                    <div id="inputField">
+                        <input type="text" id="phoneNum" readonly><br />
+                    </div>
+                </div>
+
+                <div id="inputBlock">
+                    <div id="inputHeaders">
+                        <span id="contact-Text">Email:</span>
+                    </div>
+                    <div id="inputField">
+                        <input type="text" id="emailInfo" readonly><br />
+                    </div>
+                </div>
+
+                <div id="buttonContainer">
+                    <button type="button" id="edit" class="buttons">Edit</button>
+                    <button type="button" id="save" class="buttons" style="display: none;">Save</button>
+                    <button type="button" id="cancel" class="buttons" style="display: none;">Cancel</button>
+                    <button type="button" id="delete" class="buttons">Delete</button>
+                </div>
+            </div>
+
+            <div id="noContactSelected">
+                <p>Select a contact from the list to view details</p>
+            </div>
+        </div>
     </div>
-
-    <div id="resultsA">
-        <p>Scrollable List of names</p>
-    </div>
-
-    <div id="resultsB">
-        <div id = "inputBlock">
-            <div id="inputHeaders">
-                <span id="contact-Text">First Name:</span>
-            </div>
-            <div id="inputField">
-                <input type="text" id="firstName"><br />
-            </div>
-	    </div>
-
-        <div id = "inputBlock">
-            <div id="inputHeaders">
-                <span id="contact-Text">Last Name:</span>
-            </div>
-            <div id="inputField">
-                <input type="text" id="lastName"><br />
-            </div>
-	    </div>
-
-        <div id = "inputBlock">
-            <div id="inputHeaders">
-                <span id="contact-Text">Phone Number:</span>
-            </div>
-            <div id="inputField">
-                <input type="text" id="phoneNum"><br />
-            </div>
-	    </div>
-
-        <div id = "inputBlock">
-            <div id="inputHeaders">
-                <span id="contact-Text">Email:</span>
-            </div>
-            <div id="inputField">
-                <input type="text" id="emailInfo"><br />
-            </div>
-	    </div>
-
-    </div>
-
-    <div>
-        <button type="button" id="edit" class="buttons"> Edit </button>
-        <button type="button" id="delete" class="buttons"> Delete </button>
-    </div>
-
 </div>
 
 </body>
