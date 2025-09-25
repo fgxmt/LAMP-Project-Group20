@@ -4,10 +4,10 @@
 body 
 {
     margin: 0;
-    background-color: #404040;
+    background-color: #0D1525;
 }
 a {
-  color: #404040;
+  color: #16A149;
   background-color: none;
   font-weight: bolder;
 }
@@ -27,7 +27,7 @@ a {
     height: 60px;
     font-weight:bolder;
     font-family: 'Inter',Inter,monospace;
-    background-color: #D9D9D9;
+    background-color: #131D35;
 }
 #Website-Name {
     font-size: 130%;
@@ -35,7 +35,7 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 30px;
-    color: #404040;
+    color: #F0F5F8;
 }
 
 /* login Section */
@@ -48,8 +48,8 @@ a {
     text-align: center;
     padding: 10px;
     border-radius:29px;
-    background-color: #D9D9D9;
-    color: #404040;
+    background-color: #131D35;
+    color: #F0F5F8;
     font-weight: bolder;
     font-family: 'Inter';
 }
@@ -68,13 +68,20 @@ a {
 
 #loginButton
 {
-    margin-top:20px;
+    margin: auto;
+    display: block;
     font-size: 25px;
     height:50px;
     border:none;
-    background-color: #404040;
-    color:#D9D9D9;
+    background-color: #3C61DD;
+    color:#F0F5F8;
     font-family:'Inter';
+    font-size: 25px;
+    width:50%;
+    height:60px;
+}
+#inputBlock{
+    height:80px;
 }
 #registerLink
 {
@@ -82,6 +89,7 @@ a {
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
+    color: #16A149;
 }
 
 #loggedInDiv
@@ -119,7 +127,7 @@ a {
 #loginName
 {
 	font-size: 15px;
-    width: 50%;
+    width: 100%;
     height:30px;
     outline:none;
     border:none;
@@ -127,7 +135,7 @@ a {
 #loginPassword
 {
 	font-size: 15px;
-    width: 50%;
+    width: 100%;
     height:30px;
     outline:none;
     border:none;
@@ -143,8 +151,10 @@ a {
 
 input[type="text"],input[type="password"],input[type="email"]{
     border-radius: 25px;
+    background-color: #0D1525;
+    color: #F0F5F8;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin-left: 2%;
     margin-bottom: 2%;
     font-family: 'Inter';
@@ -225,8 +235,8 @@ select{
     text-align: center;
     padding: 10px;
     border-radius:29px;
-    background-color: #D9D9D9;
-    color: #404040;
+    background-color: #131D35; 
+    color: #F0F5F8;           
     font-weight: bolder;
     font-family: 'Inter';
 }
@@ -234,18 +244,20 @@ select{
 #registerBlock{
     padding-bottom:45px;
 }
-
+#inputHeaders{
+    display: block;
+    float: right;
+    padding-right:0;
+    padding-top:5px;
+    padding-bottom:5px;
+    width: 30%;
+    color: #F0F5F8;
+}
 #inputField{
     display: block;
     float: right;
-    width: 40%;
-    padding-right:10%;
-}
-#inputHeaders{
-    display: block;
-    float: left;
-    margin-top: 5px;
     width: 50%;
+    padding-right:10%;
 }
 #registerInput{
     font-size: 15px;
@@ -253,6 +265,8 @@ select{
     height:30px;
     outline:none;
     border:none;
+    background-color: #0D1525; 
+    color: #F0F5F8;          
 }
 
 
