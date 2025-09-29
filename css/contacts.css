@@ -8,9 +8,17 @@ a {
   background-color: none;
   font-weight: bolder;
 }
+.section-divider {
+    border: none;
+    height: 4px;
+    width:90%;
+    background: rgba(240,245,248,0.08);
+    margin: 12px auto 18px;
+}
 
 #Header
 {
+    display:flex;
     width: 100%;
     height: 60px;
     font-weight:bolder;
@@ -33,9 +41,36 @@ a {
   text-decoration: underline;
 }
 
+
+#logoutLink {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F0F5F8;
+    text-decoration: none;
+}
+#logoutLink:hover {
+    color: #16A149;
+    text-decoration: underline;
+}
+
+.header-divider {
+    display: inline-block;
+    width: 1px;              
+    height: 16px;           
+    background-color: #F0F5F8;  
+    position: absolute;
+    right: 146.5px;             
+    top: 22px;             
+}
+
 #Website-Name {
     font-size: 130%;
     position: absolute;
+    display: block;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 30px;
@@ -143,3 +178,121 @@ input[type="text"],input[type="password"],input[type="email"]{
     color: #95060a;
 }
 
+
+@media (max-width: 980px) {
+    #Header {
+        height: 80px;
+        align-items: center;
+        text-align: center;
+    }
+    #Website-Name {
+        position: relative;
+        text-align: left;
+        font-size: 30px;
+        width:80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 40px;
+        display: block;
+    }
+
+    /* Stack input blocks and center labels/inputs */
+    #contact-TextTitle {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #inputBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        clear: both;
+        height: auto;
+        margin-bottom: 12px;
+        padding-bottom: 0;
+    }
+    #inputHeaders {
+        float: none;
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin: 6px 0 4px 0;
+    }
+    #inputField {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding-right: 0;
+    }
+
+    /* Make inputs narrower and larger for touch */
+    input[type="text"], input[type="password"], input[type="email"] {
+        width: 90%;
+        height: 80px;
+        margin-left: 0;
+        text-align: center;
+        outline: none;
+        border: none;
+        font-size: 25px;
+    }
+
+    /* Make contact card full width and taller on mobile */
+    #contactDiv {
+        width: 92%;
+        margin: 10% auto 0 auto;
+        padding: 16px;
+        height: auto;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    /* Button sizing */
+    #contactButton {
+        width: 80%;
+        font-size: 30px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    #contact-Text {
+        font-size: 30px;
+        text-align: left;
+        color: #F0F5F8;
+    }
+
+    /* Nav link flow on small screens */
+    #navLink {
+        position: relative;
+        right: auto;
+        top: auto;
+        float:right;
+        display: block;
+        font-size: 20px;
+        width:10%;
+        margin: 8px 16px;
+    }
+
+    #logoutLink {
+    position: relative;
+    right: auto;
+    top: auto;
+    float: right;
+    display: block;
+    font-size: 20px;
+    width: 10%;
+    margin: 8px 16px;
+}
+
+.header-divider {
+    position: relative;
+    right: auto;
+    top: auto;
+    float: right;
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #F0F5F8;
+    margin: 16px 8px 0 0; 
+}
+}
