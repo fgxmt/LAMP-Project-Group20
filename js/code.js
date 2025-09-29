@@ -25,7 +25,7 @@ async function doLogin() {
     localStorage.setItem("userId", data.data.userId);
     
     alert(`Welcome, ${data.data.firstName}!`);
-    window.location.href = "addContact.html"
+    window.location.href = "searchContact.html"
   } catch (err) {
     console.error(err);
     alert(err.message || "Network error");
@@ -96,13 +96,6 @@ async function addContact() {
   }
 
   try {
-    alert(JSON.stringify({
-        userId,
-        firstName,
-        lastName,
-        phone,
-        email
-      }));
     const res = await fetch(`LAMPAPI/addContact.php`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
