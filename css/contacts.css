@@ -41,6 +41,32 @@ a {
   text-decoration: underline;
 }
 
+
+#logoutLink {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F0F5F8;
+    text-decoration: none;
+}
+#logoutLink:hover {
+    color: #16A149;
+    text-decoration: underline;
+}
+
+.header-divider {
+    display: inline-block;
+    width: 1px;              
+    height: 16px;           
+    background-color: #F0F5F8;  
+    position: absolute;
+    right: 146.5px;             
+    top: 22px;             
+}
+
 #Website-Name {
     font-size: 130%;
     position: absolute;
@@ -246,5 +272,27 @@ input[type="text"],input[type="password"],input[type="email"]{
         width:10%;
         margin: 8px 16px;
     }
+
+    #logoutLink {
+    position: relative;
+    right: auto;
+    top: auto;
+    float: right;
+    display: block;
+    font-size: 20px;
+    width: 10%;
+    margin: 8px 16px;
 }
 
+.header-divider {
+    position: relative;
+    right: auto;
+    top: auto;
+    float: right;
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #F0F5F8;
+    margin: 16px 8px 0 0; 
+}
+}
