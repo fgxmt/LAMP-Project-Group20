@@ -316,7 +316,7 @@ input[type="text"], input[type="password"], input[type="email"],
         width:10%;
         margin: 8px 16px;
     }
-
+  
     #logoutLink {
     position: relative;
     right: auto;
@@ -425,3 +425,4 @@ input[type="text"], input[type="password"], input[type="email"],
     .buttons { width: 80%; font-size: 20px; height: 64px; }
     #noContactSelected p { font-size: 18px; }
 }
+
