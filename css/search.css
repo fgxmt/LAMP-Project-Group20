@@ -43,6 +43,7 @@ a {
 
 #logoutLink {
     position: absolute;
+    padding-right:3px;
     right: 130px;
     top: 20px;
     font-family: 'Inter', sans-serif;

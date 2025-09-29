@@ -44,6 +44,7 @@ a {
 
 #logoutLink {
     position: absolute;
+    padding-right:3px;
     right: 150px;
     top: 20px;
     font-family: 'Inter', sans-serif;
