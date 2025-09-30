@@ -12,6 +12,8 @@ a {
   font-weight: bolder;
 }
 
+
+
 .section-divider {
     border: none;
     height: 4px;
@@ -40,10 +42,17 @@ a {
 #Website-Name {
     font-size: 130%;
     position: absolute;
+    margin-top: 19px;
+    margin-top: 19px;
+    padding-left: 75px;
+    color: #F0F5F8;
+}
+#logo{
+    position: absolute;
+    height:35px;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding-left: 30px;
-    color: #F0F5F8;
+    padding-left:30px;
 }
 
 /* login Section */
@@ -294,6 +303,13 @@ select{
         padding-bottom:2%;
         padding-left:0;
         display: block;
+    }
+    #logo{
+        position: block;
+        height:0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left:30px;
     }
 
     /* Switch input blocks to column and center labels/inputs */
